@@ -73,13 +73,27 @@ body {
     border-color: rgb(122, 70, 21);
 }
 
+.content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+
 ul {
     list-style-type: none;
 }
 
 h1{
     font-size: 40px;
+}
 
+h2{
+    font-size: 30px;
 }
 
 p {
